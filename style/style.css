@@ -1,0 +1,94 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: beige;
+}
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img_logo{
+    width: 150px;
+    height: 100px;
+}
+
+#logo{
+    margin: 20px;
+}
+
+#menu{
+    margin: 20px;
+}
+
+#menu ul li{
+    list-style: none;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+   color: 	#592E0B;
+}
+
+#menu ul li a{
+   text-decoration: none;
+   font-size: small;
+}
+
+/* #slide{
+    width: 100%;
+    height: 700px;
+    margin: 15px;
+} */
+
+#slide img{
+    width: 100%;
+    height: 700px;
+    margin: 15px;
+}
+
+#container{
+    margin: 50px;
+}
+#servicios{
+    display: flex;
+    text-align: center;
+    background-color: 	#C19A6B;
+    padding: 20px;
+    margin: 30px;
+}
+
+#videos{
+    display: flex;
+    text-align: center;
+    background-color: 	#C19A6B;
+    padding: 20px;
+    margin: 30px;
+}
+
+#bolsa{
+    width: 200px;
+    height: 150px;
+}
+#mochila{
+    width: 200px;
+    height: 150px;
+}
+#cartera{
+    width: 200px;
+    height: 150px;
+}
+
+#video1{
+    width: 450;
+}
+
+#pie{
+    width: 100%;
+    height: 100px;
+    background-color: 	#C19A6B;
+}
