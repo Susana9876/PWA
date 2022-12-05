@@ -3,8 +3,8 @@ self.addEventListener('install', e =>{
       .then(cache => {
           return cache.addAll([
               'index.html',
-              './css/index.css',
-              './js/app.js',
+              './style/style.css',
+              './script/app.js',
               './json/manifest.json'
           ])
           
